@@ -12,7 +12,6 @@ void main() {
 }
 
 class PaginationApp extends StatelessWidget {
-
   final PostsRepository repository;
 
   const PaginationApp({Key key, this.repository}) : super(key: key);
